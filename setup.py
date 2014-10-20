@@ -5,8 +5,6 @@ if sys.version < '3':
     from distutils.core import setup
     extra = dict()
 else:
-    import distribute_setup
-    distribute_setup.use_setuptools()
     from setuptools import setup
     extra = {'use_2to3':True}
 
