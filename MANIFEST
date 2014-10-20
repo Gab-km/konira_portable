@@ -1,4 +1,3 @@
-distribute_setup.py
 setup.py
 bin/konira
 bin/konira.bat

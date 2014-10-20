@@ -1,4 +1,3 @@
 include setup.py
 include bin/konira.bat
-include distribute_setup.py
 recursive-include konira/tests *
